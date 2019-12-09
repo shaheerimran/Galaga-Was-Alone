@@ -53,7 +53,7 @@ public class Enemy {
 		//do not touch
 		//helper functions to handle img drawing
 		img = getImage(fileName);
-
+		
 		//helper function for location of image
 		//if you update x and y, use updateShip()
 		updateEnemy();

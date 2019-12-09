@@ -45,7 +45,7 @@ public class Driver extends JPanel implements ActionListener, KeyListener,
 
 	String src = new File("").getAbsolutePath() + "/src/"; // path to image
 	Clip hop;
-	Ship s = new Ship("Assets/Player.png", 0, 0);
+	Ship s = new Ship("Assets/Player.png", 300, 600);
 	Background frame_one = new Background("Assets/Background.png");
 	Background frame_two = new Background("Assets/Background.png", 0, -screen_height); //+5 because of small gap between backgrounds
 	

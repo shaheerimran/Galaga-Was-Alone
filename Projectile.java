@@ -76,7 +76,7 @@ public class Projectile {
 		}
 		
 		Rectangle ship = new Rectangle(s.getX(), s.getY(), 109, 100);
-		Rectangle proj = new Rectangle(x, y, 100, 100);
+		Rectangle proj = new Rectangle(x + 40, y, 20, 100);
 		
 		return proj.intersects(ship);
 	}
@@ -90,7 +90,7 @@ public class Projectile {
 		
 		
 		Rectangle enemy = new Rectangle(e.getX(), e.getY(), 100, 100);
-		Rectangle proj = new Rectangle(x, y, 100, 100);
+		Rectangle proj = new Rectangle(x + 40, y, 20, 100);
 			
 		return proj.intersects(enemy);
 	}
