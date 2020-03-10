@@ -2,7 +2,7 @@
 
 Note: At this point in time I plan no further updates to the game.  
 
-Galaga Was Alone is a class project shooter game. 
+Galaga Was Alone is a class project scrolling projectile game. 
 It revolves around a main player, a blue triangle, who has to get to the end of the level by successfully avoiding all the red square enemies and their projectiles. 
 Control the player by dragging the mouse and shoot by left-clicking.
 The player shoots purple projectiles.
